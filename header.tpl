@@ -105,7 +105,7 @@
                 {* Logo *}
                 <a class="navbar-brand gh-logo" href="{$WEB_ROOT}/index.php">
                     {if $assetLogoPath}
-                        <img src="{$assetLogoPath}" alt="{$companyname}" class="gh-logo-img">
+                        <img src="https://www.gigshost.net/_next/image?url=https%3A%2F%2Fcms.gigshost.net%2Fuploads%2Flogo_5a85e14f37_e705c1e56e.webp&w=256&q=75" alt="{$companyname}" class="gh-logo-img">
                     {else}
                         <span class="gh-logo-text">{$companyname}</span>
                     {/if}
