@@ -25,13 +25,13 @@
                 <div>
                     <h3 class="gh-footer__col-title">Cloud Hosting</h3>
                     <ul class="gh-footer__links">
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/cpanel-hosting">cPanel Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/laravel-hosting">Laravel Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/nodejs-hosting">Node.js Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/wordpress-hosting">WordPress Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/woocommerce-hosting">WooCommerce Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/ecommerce-hosting">eCommerce Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/reseller-hosting">Reseller Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/cpanel-hosting">cPanel Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/laravel-hosting">Laravel Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/nodejs-hosting">Node.js Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/wordpress-hosting">WordPress Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/woocommerce-hosting">WooCommerce Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/ecommerce-hosting">eCommerce Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/reseller-hosting">Reseller Hosting</a></li>
                     </ul>
                 </div>
 
@@ -39,12 +39,12 @@
                 <div>
                     <h3 class="gh-footer__col-title">VPS &amp; Server</h3>
                     <ul class="gh-footer__links">
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/vps-hosting">VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/offshore-vps">Offshore VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/windows-vps">Windows VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/forex-vps">Forex VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/seo-vps">SEO VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/dedicated-server">Dedicated Server</a></li>
+                        <li><a href="https://www.gigshost.net/vps-hosting">VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/offshore-vps">Offshore VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/windows-vps">Windows VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/forex-vps">Forex VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/seo-vps">SEO VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/dedicated-server">Dedicated Server</a></li>
                     </ul>
                 </div>
 
@@ -52,10 +52,10 @@
                 <div>
                     <h3 class="gh-footer__col-title">Control Panel</h3>
                     <ul class="gh-footer__links">
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/plesk-vps">Plesk VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/cpanel-vps">cPanel VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/cyberpanel-vps">CyberPanel VPS Hosting</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/directadmin-vps">DirectAdmin VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/plesk-vps">Plesk VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/cpanel-vps">cPanel VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/cyberpanel-vps">CyberPanel VPS Hosting</a></li>
+                        <li><a href="https://www.gigshost.net/directadmin-vps">DirectAdmin VPS Hosting</a></li>
                     </ul>
                 </div>
 
@@ -65,9 +65,9 @@
                     <ul class="gh-footer__links">
                         <li><a href="{$WEB_ROOT}/submitticket.php">Free Website Migration</a></li>
                         <li><a href="{$WEB_ROOT}/domain.php">Domain</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/ssl-certificates">SSL Certificate</a></li>
-                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/ai-website-builder">AI Website Builder</a></li>
-                        <li><a href="{$WEB_ROOT}/affiliates.php">Affiliate Program</a></li>
+                        <li><a href="https://www.gigshost.net/ssl-certificates">SSL Certificate</a></li>
+                        <li><a href="https://www.gigshost.net/ai-website-builder">AI Website Builder</a></li>
+                        <li><a href="https://www.gigshost.net/affiliates.php">Affiliate Program</a></li>
                     </ul>
                 </div>
 
@@ -75,10 +75,10 @@
                 <div>
                     <h3 class="gh-footer__col-title">Company</h3>
                     <ul class="gh-footer__links">
-                        <li><a href="{$WEB_ROOT}/about-us">About Us</a></li>
-                        <li><a href="{$WEB_ROOT}/contact.php">Contact Us</a></li>
-                        <li><a href="{$WEB_ROOT}/data-center">Data Center</a></li>
-                        <li><a href="{$WEB_ROOT}/announcements.php">Blog</a></li>
+                        <li><a href="https://www.gigshost.net/about-us">About Us</a></li>
+                        <li><a href="https://www.gigshost.net/contact.php">Contact Us</a></li>
+                        <li><a href="https://www.gigshost.net/data-center">Data Center</a></li>
+                        <li><a href="https://www.gigshost.net/announcements.php">Blog</a></li>
                         <li><a href="{$WEB_ROOT}/index.php?rp=/knowledgebase">Knowledge Base</a></li>
                     </ul>
                 </div>
@@ -91,7 +91,7 @@
 
                     {* Logo + Award *}
                     <div class="gh-footer__brand">
-                        <a href="{$WEB_ROOT}/index.php" class="gh-footer__logo-link">
+                        <a href="{$WEB_ROOT}/" class="gh-footer__logo-link">
                             {if $assetLogoPath}
                                 <img src="https://www.gigshost.net/_next/image?url=https%3A%2F%2Fcms.gigshost.net%2Fuploads%2Flogo_5a85e14f37_e705c1e56e.webp&w=256&q=75" alt="{$companyname}" class="gh-footer__logo">
                             {else}
@@ -135,13 +135,13 @@
 
                 {* Legal links *}
                 <div class="gh-footer__legal">
-                    <a href="{$WEB_ROOT}/privacy-policy">Privacy Policy</a>
+                    <a href="https://www.gigshost.net/privacy-policy">Privacy Policy</a>
                     <span class="gh-footer__legal-sep">|</span>
-                    <a href="{$WEB_ROOT}/terms-of-service">Terms of Service</a>
+                    <a href="https://www.gigshost.net/terms-of-service">Terms of Service</a>
                     <span class="gh-footer__legal-sep">|</span>
-                    <a href="{$WEB_ROOT}/refund-policy">Refund Policy</a>
+                    <a href="https://www.gigshost.net/refund-policy">Refund Policy</a>
                     <span class="gh-footer__legal-sep">|</span>
-                    <a href="{$WEB_ROOT}/affiliates.php">Affiliate TOS</a>
+                    <a href="https://www.gigshost.net/affiliates.php">Affiliate TOS</a>
                     {if $acceptTOS}
                         <span class="gh-footer__legal-sep">|</span>
                         <a href="{$tosURL}" target="_blank">{lang key='ordertos'}</a>
