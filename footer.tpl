@@ -11,43 +11,150 @@
         </div>
     </section>
 
-    <footer id="footer" class="footer">
-        <div class="container">
-            <ul class="list-inline text-center float-lg-right">
-                {include file="$template/includes/social-accounts.tpl"}
+    {* ============================================================
+       GigsHost Footer — matches gigshost/components/Footer.tsx
+       bg-gray-900 | 5-column grid | bottom bar with logo + social
+       ============================================================ *}
+    <footer id="footer" class="gh-footer">
+        <div class="gh-footer__container">
 
-                {if $languagechangeenabled && count($locales) > 1 || $currencies}
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-sm btn-outline-light" data-toggle="modal" data-target="#modalChooseLanguage">
-                            <div class="d-inline-block align-middle">
-                                <div class="iti-flag {if $activeLocale.countryCode === '001'}us{else}{$activeLocale.countryCode|lower}{/if}"></div>
-                            </div>
-                            {$activeLocale.localisedName}
-                            /
-                            {$activeCurrency.prefix}
-                            {$activeCurrency.code}
+            {* 5-column link grid *}
+            <div class="gh-footer__grid">
+
+                {* Col 1: Cloud Hosting *}
+                <div>
+                    <h3 class="gh-footer__col-title">Cloud Hosting</h3>
+                    <ul class="gh-footer__links">
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/cpanel-hosting">cPanel Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/laravel-hosting">Laravel Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/nodejs-hosting">Node.js Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/wordpress-hosting">WordPress Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/woocommerce-hosting">WooCommerce Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/ecommerce-hosting">eCommerce Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/reseller-hosting">Reseller Hosting</a></li>
+                    </ul>
+                </div>
+
+                {* Col 2: VPS & Server *}
+                <div>
+                    <h3 class="gh-footer__col-title">VPS &amp; Server</h3>
+                    <ul class="gh-footer__links">
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/vps-hosting">VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/offshore-vps">Offshore VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/windows-vps">Windows VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/forex-vps">Forex VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/seo-vps">SEO VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/dedicated-server">Dedicated Server</a></li>
+                    </ul>
+                </div>
+
+                {* Col 3: Control Panel *}
+                <div>
+                    <h3 class="gh-footer__col-title">Control Panel</h3>
+                    <ul class="gh-footer__links">
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/plesk-vps">Plesk VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/cpanel-vps">cPanel VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/cyberpanel-vps">CyberPanel VPS Hosting</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/directadmin-vps">DirectAdmin VPS Hosting</a></li>
+                    </ul>
+                </div>
+
+                {* Col 4: Addons *}
+                <div>
+                    <h3 class="gh-footer__col-title">Addons</h3>
+                    <ul class="gh-footer__links">
+                        <li><a href="{$WEB_ROOT}/submitticket.php">Free Website Migration</a></li>
+                        <li><a href="{$WEB_ROOT}/domain.php">Domain</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/ssl-certificates">SSL Certificate</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/store/ai-website-builder">AI Website Builder</a></li>
+                        <li><a href="{$WEB_ROOT}/affiliates.php">Affiliate Program</a></li>
+                    </ul>
+                </div>
+
+                {* Col 5: Company *}
+                <div>
+                    <h3 class="gh-footer__col-title">Company</h3>
+                    <ul class="gh-footer__links">
+                        <li><a href="{$WEB_ROOT}/about-us">About Us</a></li>
+                        <li><a href="{$WEB_ROOT}/contact.php">Contact Us</a></li>
+                        <li><a href="{$WEB_ROOT}/data-center">Data Center</a></li>
+                        <li><a href="{$WEB_ROOT}/announcements.php">Blog</a></li>
+                        <li><a href="{$WEB_ROOT}/index.php?rp=/knowledgebase">Knowledge Base</a></li>
+                    </ul>
+                </div>
+
+            </div>{* /.gh-footer__grid *}
+
+            {* Bottom bar *}
+            <div class="gh-footer__bottom">
+                <div class="gh-footer__bottom-row">
+
+                    {* Logo + Award *}
+                    <div class="gh-footer__brand">
+                        <a href="{$WEB_ROOT}/index.php" class="gh-footer__logo-link">
+                            {if $assetLogoPath}
+                                <img src="https://www.gigshost.net/_next/image?url=https%3A%2F%2Fcms.gigshost.net%2Fuploads%2Flogo_5a85e14f37_e705c1e56e.webp&w=256&q=75" alt="{$companyname}" class="gh-footer__logo">
+                            {else}
+                                <img src="https://www.gigshost.net/_next/image?url=https%3A%2F%2Fcms.gigshost.net%2Fuploads%2Flogo_5a85e14f37_e705c1e56e.webp&w=256&q=75" alt="{$companyname}" class="gh-footer__logo">
+                            {/if}
+                        </a>
+                        <div class="gh-footer__award">
+                            <p><i class="fas fa-trophy gh-footer__trophy"></i> Reliable Cloud Hosting for Modern Websites</p>
+                            <p>Trusted by Businesses & Developers</p>
+                        </div>
+                    </div>
+
+                    {* Social icons + Language/Currency switcher *}
+                    <div class="gh-footer__right">
+
+                        <div class="gh-footer__social">
+                            <a href="https://facebook.com/GigsHost" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/GigshostNet" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/gigshost/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/gigshost" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/gigshost" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+
+                        {* Language / Currency switcher — only shown when available *}
+                        {if ($languagechangeenabled && count($locales) > 1) || $currencies}
+                        <button type="button" class="gh-footer__locale-btn" data-toggle="modal" data-target="#modalChooseLanguage">
+                            <div class="iti-flag {if $activeLocale.countryCode === '001'}us{else}{$activeLocale.countryCode|lower}{/if}"></div>
+                            {if $languagechangeenabled && count($locales) > 1}
+                                <span>{$activeLocale.localisedName}</span>
+                            {/if}
+                            {if $currencies}
+                                <span>/</span>
+                                <span>{$activeCurrency.prefix} {$activeCurrency.code}</span>
+                            {/if}
                         </button>
-                    </li>
-                {/if}
-            </ul>
+                        {/if}
 
-            <ul class="nav justify-content-center justify-content-lg-start">
-                <li class="nav-item">
-                    <a class="nav-link" href="{$WEB_ROOT}/contact.php">
-                        {lang key='contactus'}
-                    </a>
-                </li>
-                {if $acceptTOS}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{$tosURL}" target="_blank">{lang key='ordertos'}</a>
-                    </li>
-                {/if}
-            </ul>
+                    </div>
 
-            <p class="copyright mb-0">
-                {lang key="copyrightFooterNotice" year=$date_year company=$companyname}
-            </p>
-        </div>
+                </div>
+
+                {* Legal links *}
+                <div class="gh-footer__legal">
+                    <a href="{$WEB_ROOT}/privacy-policy">Privacy Policy</a>
+                    <span class="gh-footer__legal-sep">|</span>
+                    <a href="{$WEB_ROOT}/terms-of-service">Terms of Service</a>
+                    <span class="gh-footer__legal-sep">|</span>
+                    <a href="{$WEB_ROOT}/refund-policy">Refund Policy</a>
+                    <span class="gh-footer__legal-sep">|</span>
+                    <a href="{$WEB_ROOT}/affiliates.php">Affiliate TOS</a>
+                    {if $acceptTOS}
+                        <span class="gh-footer__legal-sep">|</span>
+                        <a href="{$tosURL}" target="_blank">{lang key='ordertos'}</a>
+                    {/if}
+                </div>
+
+                {* Copyright *}
+                <div class="gh-footer__copyright">
+                    Copyright &copy; {$date_year} GigsHost. All Rights Reserved. A Service by Dristi Technologies & IT Services Pvt. Ltd.
+                </div>
+
+            </div>{* /.gh-footer__bottom *}
+        </div>{* /.gh-footer__container *}
     </footer>
 
     <div id="fullpage-overlay" class="w-hidden">

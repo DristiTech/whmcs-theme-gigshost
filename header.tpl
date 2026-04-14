@@ -107,7 +107,7 @@
                     {if $assetLogoPath}
                         <img src="https://www.gigshost.net/_next/image?url=https%3A%2F%2Fcms.gigshost.net%2Fuploads%2Flogo_5a85e14f37_e705c1e56e.webp&w=256&q=75" alt="{$companyname}" class="gh-logo-img">
                     {else}
-                        <span class="gh-logo-text">{$companyname}</span>
+                        <img src="https://www.gigshost.net/_next/image?url=https%3A%2F%2Fcms.gigshost.net%2Fuploads%2Flogo_5a85e14f37_e705c1e56e.webp&w=256&q=75" alt="{$companyname}" class="gh-logo-img">
                     {/if}
                 </a>
 

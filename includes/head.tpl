@@ -11,6 +11,7 @@
 {assetExists file="custom.css"}
 <link href="{$__assetPath__}" rel="stylesheet">
 {/assetExists}
+<link href="{assetPath file='gigshost.css'}?v={$versionHash}" rel="stylesheet">
 
 <script>
     var csrfToken = '{$token}',
